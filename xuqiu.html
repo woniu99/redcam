@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>红镜影像-需求发布</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <!-- header-start -->
+    <header id="header" class="clear">
+        <div class="header-top">
+            <div class="logo">
+                <a href="index.html" title="logo">
+                    <img src="images/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="top-search clear">
+                <div class="top-search-left">
+                    <input type="text" class="top-search-text" placeholder="搜索内容" />
+                </div>
+                <div class="top-search-right">
+                    <button type="button" class="top-search-btn">搜索</button>
+                </div>
+            </div>
+            <div class="hotline">
+                <p>
+                    服务热线<strong>400-888-8888</strong>
+                </p>
+            </div>
+        </div>
+        <nav class="header-nav clear">
+            <ul>
+                <li><a href="index.html" title="首页">首页</a></li>
+                <li><a href="studio.html" title="摄影棚">摄影棚</a></li>
+                <li><a href="tejia.html" title="特价信息">特价信息</a></li>
+                <li class="selected"><a href="xuqiu.html" title="需求发布">需求发布</a></li>
+                <li><a href="jiameng.html" title="服务商加盟">服务商加盟</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header-end -->
+    <!-- 需求发布 requirements start -->
+    <div class="requirements clear">
+        <div class="crumbs-nav clear">
+            <p>当前位置：</p>
+            <a href="index.html" title="首页">首页</a>
+            <span>></span>
+            <a href="#" title="需求发布">需求发布</a>
+        </div>
+        <div class="release">
+            <div class="release-header" id="tab">
+                <h3 class="up" onclick="go_to(1)" id="tab1">精准发布
+                    <p>精准需求 一键发布 完美匹配</p>
+                </h3>
+                <h3 onclick="go_to(2)" id="tab2">极速发布
+                    <p>15秒闪电需求发布 10分钟销售快速响应</p>
+                </h3>
+            </div>
+            <div class="accurate-release" id="accurate-release">
+                <div class="privacy-tips">
+                    <p>隐私全程保护，绝不公开，让您不再受电话骚扰</p>
+                </div>
+                <form action="" method="" class="release-demand">
+                    <div class="studio-demand">
+                        <h3>影棚需求</h3>
+                        <label for="seltype">选择类型：</label>
+                        <select name="seltype">
+						<option value="--请选择--" disabled selected>请选择</option>
+						<option value="类型一">类型一</option>
+						<option value="类型二">类型二</option>
+						<option value="类型三">类型三</option>
+					</select>
+                        <label for="date" class="demand-date">日期：</label>
+                        <input name="date" type="text" placeholder="请选择开始日期" />
+                        <span>-</span>
+                        <input name="date" type="text" placeholder="请选择结束日期" />
+                        <label for="usetime">使用时间：</label>
+                        <input type="text" name="usetime" />
+                        <label for="demand" class="demand-label">影棚要求：</label>
+                        <textarea name="demand" placeholder="如五月短视频录制"></textarea>
+                    </div>
+                    <div class="contact-information">
+                        <div class="contact-information-con">
+                            <h3>联系方式</h3>
+                            <label for="contact-name">姓名：</label>
+                            <input type="text" name="contact-name">
+                            <label for="contact-phone">手机：</label>
+                            <input type="text" name="contact-phone">
+                            <button type="submit">确认发布</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="speed-release block" id="speed-release">
+                <div class="privacy-tips">
+                    <p>隐私全程保护，绝不公开，让您不再受电话骚扰</p>
+                </div>
+                <form action="" method="" class="release-demand">
+                    <h3>影棚需求</h3>
+                    <label for="contact-name">姓名：</label>
+                    <input type="text" name="contact-name">
+                    <label for="contact-phone">手机：</label>
+                    <input type="text" name="contact-phone">
+                    <label for="demand" class="demand-label">影棚要求：</label>
+                    <textarea name="demand" placeholder="如五月短视频录制"></textarea>
+                    <button type="submit">确认发布</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- 需求发布 requirements end -->
+    <!-- footer-start -->
+    <footer id="footer" class="clear">
+        <div class="footer-top clear">
+            <h3><a href="#">友情链接</a></h3>
+            <ul>
+                <li>
+                    <a href="#" title="中国摄影在线"><img alt="中国摄影在线" src="images/link1.png" /></a>
+                </li>
+                <li>
+                    <a href="#" title="东方摄影"><img alt="东方摄影" src="images/link2.png" /></a>
+                </li>
+                <li>
+                    <a href="#" title="中国摄影在线"><img alt="中国摄影在线" src="images/link1.png" /></a>
+                </li>
+                <li>
+                    <a href="#" title="东方摄影"><img alt="东方摄影" src="images/link2.png" /></a>
+                </li>
+                <li>
+                    <a href="#" title="中国摄影在线"><img alt="中国摄影在线" src="images/link1.png" /></a>
+                </li>
+                <li class="right-last-li">
+                    <a href="#" title="东方摄影"><img alt="东方摄影" src="images/link2.png" /></a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-content clear">
+            <div class="footer-content-con clear">
+                <p>红镜影像-摄影棚一站式服务提供商</p>
+                <span>海量真实摄影棚资源提供</span>
+                <span>一站式后端服务提供</span>
+                <span>大量特价信息</span>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-bottom-link">
+                <a href="#" title="关于红镜影像">关于红镜影像</a>|
+                <a href="#" title="服务商加盟">服务商加盟</a>|
+                <a href="#" title="摄影棚">摄影棚</a>|
+                <a href="#" title="特价信息">特价信息</a>|
+                <a href="#" title="需求发布">需求发布</a>|
+                <a href="#" title="联系我们">联系我们</a>
+            </div>
+            <img alt="网站认证" src="images/certification.jpg" />
+        </div>
+    </footer>
+    <!-- footer-end -->
+    <script type="text/javascript">
+        var tab1 = document.getElementById("tab1");
+        var tab2 = document.getElementById("tab2");
+        var ac = document.getElementById('accurate-release');
+        var sp = document.getElementById('speed-release');
+
+        function go_to(ao) {
+            if (ao == 1) {
+                tab1.className = 'up';
+                tab2.className = '';
+                ac.style.display = "block";
+                sp.style.display = "none";
+            } else {
+                tab1.className = '';
+                tab2.className = 'up';
+                ac.style.display = "none";
+                sp.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
